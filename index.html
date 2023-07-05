@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vanilla JS Dom Manipulation</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h2 class="title">
+          <span class="begin"><</span>jonie<span class="begin">Dev</span
+          ><span class="end">/></span>
+        </h2>
+        <input class="search" type="text" placeholder="Search here..." />
+      </div>
+    </nav>
+
+    <div class="list">
+      <div class="listContainer">
+        <h2>Add Items</h2>
+        <form class="inputContainer">
+          <input class="createInput" type="text" placeholder="Type Here..." />
+          <button type="submit" class="submitBtn">Submit</button>
+        </form>
+        <h2>Items</h2>
+        <ul class="listItems">
+          <li class="item">
+            <span class="itemName">Item One</span>
+            <button class="cancel">X</button>
+          </li>
+          <li class="item">
+            <span class="itemName">Item Two</span>
+            <button class="cancel">X</button>
+          </li>
+          <li class="item">
+            <span class="itemName">Item Three</span>
+            <button class="cancel">X</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

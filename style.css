@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #171717;
+  color: white;
+  padding: 20px;
+}
+
+.title {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.begin {
+  color: teal;
+}
+
+.end {
+  color: goldenrod;
+}
+
+.search {
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listContainer {
+  border-radius: 10px;
+  background-color: lightgray;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.createInput {
+  padding: 6px;
+  font-weight: 500;
+}
+
+.submitBtn {
+  background-color: #171717;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: darkgray;
+  font-weight: 500;
+}
+
+.cancel {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+@media only screen and (max-width: "480px") {
+  .listContainer {
+    align-items: center;
+  }
+}
